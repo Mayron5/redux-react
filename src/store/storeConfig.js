@@ -1,10 +1,12 @@
 import { combineReducers, createStore } from 'redux'
 
 import reducerNumber from './reducers/numeros'
+import reducerAdvice from './reducers/conselhos';
 import numberMiddleware from './middlewares/numeros';
 
 const reducers = combineReducers({
-    numeros: reducerNumber
+    numeros: reducerNumber,
+    conselhos: reducerAdvice
 });
 
 const storeConfig = () => {

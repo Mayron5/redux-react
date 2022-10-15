@@ -1,4 +1,6 @@
 import './App.css';
+import Card from './components/Card';
+import Conselho from './components/Conselho';
 
 import Intervalo from './components/Intervalo';
 import Media from './components/Media'
@@ -16,6 +18,9 @@ function App() {
         <Media />
         <Soma />
         <Sorteio />
+      </div>
+      <div className="row">
+        <Conselho />
       </div>
     </div>
   );

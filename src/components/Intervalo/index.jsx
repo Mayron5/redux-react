@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { alterarNumeroMinimo, alterarNumeroMaximo } from '../../store/actions/numeros'
 
